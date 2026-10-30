@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420">
+<defs><linearGradient id="body" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#66717d"/><stop offset="1" stop-color="#172535"/></linearGradient><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b9d1e1"/><stop offset="1" stop-color="#293f54"/></linearGradient></defs>
+<rect width="900" height="420" rx="18" fill="#edf3f8"/>
+<circle cx="740" cy="76" r="40" fill="#ffffff" opacity=".65"/><path d="M0 292 Q170 255 330 290 T650 285 T900 270 V420 H0Z" fill="#d4e0ea"/>
+<ellipse cx="450" cy="333" rx="330" ry="29" fill="#8a9baa" opacity=".35"/>
+<path d="M130 280 L164 225 Q184 199 251 188 L330 117 Q353 97 399 97 H547 Q586 98 614 131 L682 207 L741 226 Q770 238 778 270 L770 303 H126Z" fill="url(#body)" stroke="#111d2a" stroke-width="5" stroke-linejoin="round"/>
+<path d="M267 184 L344 122 Q359 112 396 112 H462 V184Z" fill="url(#glass)" stroke="#1b2b3a" stroke-width="5"/>
+<path d="M478 112 H543 Q570 113 591 143 L622 184 H478Z" fill="url(#glass)" stroke="#1b2b3a" stroke-width="5"/>
+<path d="M133 265 L211 252 L233 267 L218 284 L133 284Z" fill="#f5f7fa"/>
+<path d="M690 249 L754 262 L761 279 L698 278Z" fill="#d7ecf8"/>
+<path d="M250 205 H658" stroke="#9eabb8" stroke-width="4" opacity=".6"/><path d="M476 198 V292" stroke="#0d1925" stroke-width="4"/>
+<circle cx="260" cy="302" r="55" fill="#111923"/><circle cx="260" cy="302" r="33" fill="#b7c1ca"/><circle cx="260" cy="302" r="20" fill="#536271"/><circle cx="650" cy="302" r="55" fill="#111923"/><circle cx="650" cy="302" r="33" fill="#b7c1ca"/><circle cx="650" cy="302" r="20" fill="#536271"/>
+<path d="M320 282 H585" stroke="#8c9aa7" stroke-width="3" opacity=".55"/>
+<text x="450" y="385" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#53677b">Replace with your official vehicle photo</text>
+</svg>

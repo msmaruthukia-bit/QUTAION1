@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380">
+<rect width="700" height="380" rx="18" fill="#eaf1e6"/>
+<path d="M-20 70 L720 305 M70 -20 L330 410 M420 -20 L200 410 M620 -20 L480 410" stroke="#fff" stroke-width="28"/>
+<path d="M-20 70 L720 305" stroke="#e4c77d" stroke-width="11"/>
+<path d="M70 -20 L330 410" stroke="#fff" stroke-width="12"/><path d="M420 -20 L200 410" stroke="#fff" stroke-width="12"/>
+<path d="M-10 280 Q160 210 260 260 T710 150" fill="none" stroke="#b7d9ef" stroke-width="23"/>
+<g fill="#c9dfbb"><rect x="30" y="110" width="95" height="55" rx="8"/><rect x="500" y="50" width="130" height="70" rx="8"/><rect x="420" y="275" width="120" height="55" rx="8"/><rect x="145" y="300" width="85" height="45" rx="8"/></g>
+<g transform="translate(350 165)"><path d="M0 0 C-35 -42 -48 -60 -48 -84 A48 48 0 1 1 48 -84 C48 -60 35 -42 0 0Z" fill="#d84a42"/><circle cx="0" cy="-84" r="17" fill="#fff"/><circle cx="0" cy="-84" r="8" fill="#d84a42"/></g>
+<rect x="365" y="173" width="210" height="55" rx="10" fill="#fff" stroke="#d3dce3"/><text x="380" y="195" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#20354a">Ramani Kia</text><text x="380" y="215" font-family="Arial,sans-serif" font-size="12" fill="#53677b">Kumbakonam</text>
+</svg>

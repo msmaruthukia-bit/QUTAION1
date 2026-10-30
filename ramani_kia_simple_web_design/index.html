@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramani Kia Kumbakonam | Quotation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="sheet">
+    <header class="topbar">
+      <img class="logo" src="images/kia-logo.svg" alt="Kia logo">
+      <div class="dealer">
+        <h1>RAMANI KIA</h1><h2>KUMBAKONAM</h2>
+        <p>No.2047, to, Kumbakonam - Chennai Hwy, Koranattukkaruppur, Kumbakonam, Kallappuliyur, Tamil Nadu 612501</p>
+        <p>Phone: +91 8925879199</p>
+      </div>
+      <p class="tagline">Your Dream Car<br><strong>Awaits...</strong></p>
+    </header>
+
+    <section class="hero">
+      <div class="hero-copy"><span>RAMANI KIA · KUMBAKONAM</span><h2>YOUR NEXT DRIVE<br>STARTS HERE.</h2><p>Find the Kia that fits your journey.</p></div>
+      <img src="images/car-placeholder.svg" alt="Vehicle image placeholder">
+    </section>
+
+    <div class="heading-row"><div><p class="eyebrow">CUSTOMER PROPOSAL</p><h2 class="page-title">VEHICLE QUOTATION</h2></div><button class="print" onclick="window.print()">Print / Save PDF</button></div>
+
+    <section class="columns">
+      <div class="card">
+        <h3>Customer Details</h3>
+        <label>Customer Name<input value="" placeholder="Type customer name"></label>
+        <label>Mobile Number<input value="" placeholder="Type mobile number"></label>
+        <label>Email ID<input value="" placeholder="Type email (optional)"></label>
+        <label>Quotation Date<input type="date" id="quoteDate"></label>
+      </div>
+      <div class="card">
+        <h3>Vehicle Details</h3>
+        <label>Model
+          <select id="model" onchange="syncModel()">
+            <option>Kia Seltos</option><option>Kia Sonet</option><option>Kia Syros</option>
+            <option>Kia Carens Clavis</option><option>Kia Carens Clavis EV</option>
+            <option>Kia Carens</option><option>Kia Carnival</option><option>Kia EV6</option><option>Kia EV9</option><option>Other Kia Model</option>
+          </select>
+        </label>
+        <label>Variant<input placeholder="Type exact variant"></label>
+        <label>Fuel / Transmission<input placeholder="e.g. Petrol / IVT"></label>
+        <label>Colour<input placeholder="Colour / as per stock"></label>
+      </div>
+    </section>
+
+    <section class="pricing card">
+      <div class="table-heading"><h3>Price Breakdown</h3><p>Click the amount cells to edit them in your browser.</p></div>
+      <table>
+        <thead><tr><th>Particulars</th><th>Amount (₹)</th></tr></thead>
+        <tbody>
+          <tr><td>EX-SHOWROOM</td><td contenteditable="true">Enter amount</td></tr>
+          <tr><td>TCS</td><td contenteditable="true">Enter amount</td></tr>
+          <tr><td>STATUTORY CHARGE</td><td contenteditable="true">Enter amount</td></tr>
+          <tr><td>INSURANCE</td><td contenteditable="true">Enter amount</td></tr>
+          <tr><td>ROAD TAX</td><td contenteditable="true">Enter amount</td></tr>
+          <tr><td>EXTENDED WARRANTY (4TH &amp; 5TH YEAR)</td><td contenteditable="true">Enter amount</td></tr>
+          <tr><td>ACCESSORIES</td><td contenteditable="true">Enter amount</td></tr>
+          <tr><td>FASTAG</td><td contenteditable="true">Enter amount</td></tr>
+          <tr class="total"><td>ON ROAD PRICE (APPROX.)</td><td contenteditable="true">Enter total</td></tr>
+        </tbody>
+      </table>
+      <p class="note"><b>Note:</b> Prices are approximate and may vary based on final taxes, insurance, offers, accessories and stock availability.</p>
+    </section>
+
+    <section class="bottom">
+      <div class="card terms"><h3>Terms &amp; Conditions</h3><ol>
+        <li>Prices are subject to change without prior notice.</li>
+        <li>Insurance and accessories are subject to customer selection.</li>
+        <li>Exchange, corporate and loyalty benefits are confirmed at booking.</li>
+        <li>Vehicle delivery is subject to stock availability.</li>
+        <li>Quotation validity: 7 days unless stated otherwise.</li>
+      </ol></div>
+      <div class="card map-card">
+        <h3>Find Our Showroom</h3>
+        <p>No.2047, Kumbakonam - Chennai Highway, Koranattukkaruppur, Kumbakonam, Tamil Nadu 612501</p>
+        <div class="map-frame">
+          <iframe title="Map to Ramani Kia Kumbakonam" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://maps.google.com/maps?q=Ramani%20Kia%20Kumbakonam%2C%20Tamil%20Nadu&t=&z=14&ie=UTF8&iwloc=&output=embed"></iframe>
+        </div>
+        <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Ramani+Kia+Kumbakonam+Tamil+Nadu" target="_blank" rel="noopener">Open location in Google Maps ↗</a>
+      </div>
+    </section>
+
+    <footer>
+      <div><span class="small">SALES CONSULTANT</span><strong>Maruthu</strong><span>Kia Kumbakonam</span></div>
+      <div class="phone">☎ &nbsp; +91 8925879199</div>
+      <div class="sign">Customer Signature <span></span></div>
+    </footer>
+    <p class="edit-tip">To edit text permanently, open index.html in Notepad or VS Code. Change colours and layout in style.css.</p>
+  </main>
+  <script>
+    document.getElementById('quoteDate').value = new Date().toISOString().slice(0, 10);
+    function syncModel() {
+      const model = document.getElementById('model').value;
+      document.querySelector('.hero-copy p').textContent = 'Selected model: ' + model + ' — find the Kia that fits your journey.';
+    }
+  </script>
+</body>
+</html>
